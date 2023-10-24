@@ -3,6 +3,7 @@
 @tailwind utilities;
 @import url('https://fonts.googleapis.com/css2?family=Alata&family=Josefin+Sans:wght@300&display=swap');
 
+// LogSearch: This is interesting to look at set background image, and also set it to no repeat, but the momemnt you do cover it will take entire width, interesting !!!
 #hero {
     background-image: url('./assets/loopstudios/desktop/image-hero.jpg');
     background-repeat: no-repeat;
