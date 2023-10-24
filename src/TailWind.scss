@@ -9,3 +9,11 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+// LogSearch: Here when its under max-width then apply this given css instead 
+@media(max-width: 576px) {
+    #hero {
+        background-image: url('./assets/loopstudios/mobile/image-hero.jpg');
+        background-position: center;
+    }
+}
