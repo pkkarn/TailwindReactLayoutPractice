@@ -19,7 +19,7 @@ const LoopNavbar: React.FC<{
             moment it goes above (md:)  whatever it has been defined it should set display to flex */}
                 <div className="hidden h-10 font-alata md:flex md:space-x-8"> {/** Typicall this one would be hidden but given the condiiton whenever it will go above md: then it will become flex */}
                     {navItems.map(navItem => {
-                        return <div className="group">
+                        return <div className="group transition-all duration-500 hover:opacity-50">
                             <a href="#">{navItem}</a>
                             <div className='mx-2 group-hover:border-b group-hover:border-blue-50'></div>
                         </div>
