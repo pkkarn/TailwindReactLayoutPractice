@@ -16,6 +16,9 @@ export default {
         sans: ['Josefin Sans', 'sans-serif'],
         alata: ['Alata'],
       },
+      letterSpacing: {
+        widestPk: '.3em'
+      }
     },
   },
   plugins: [],

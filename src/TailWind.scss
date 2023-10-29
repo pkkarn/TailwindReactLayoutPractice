@@ -3,6 +3,26 @@
 @tailwind utilities;
 @import url('https://fonts.googleapis.com/css2?family=Alata&family=Josefin+Sans:wght@300&display=swap');
 
+
+@layer components {
+    .btn {
+        @apply font-alata font-bold tracking-widestPk hover:bg-black hover:text-white bg-white text-black border-2 border-black px-5 py-2 uppercase
+    }
+}
+
+.image-section {
+    @apply flex mb-10 flex-col md:flex-row justify-between md:justify-start space-y-6 text-2xl text-white
+    uppercase md:space-y-0 md:space-x-8;
+}
+
+.image-title {
+    @apply absolute px-6 duration-200 w-52 bottom-4 md:bottom-8 md:px-10 group-hover:scale-110 group-hover:text-black
+}
+
+.black-grey-gradient {
+    @apply absolute top-0 bottom-0 left-0 right-0 bg-gradient-to-b from-transparent to-gray-900 group-hover:from-gray-50 group-hover:opacity-70 group-hover:to-white
+}
+
 // LogSearch: This is interesting to look at set background image, and also set it to no repeat, but the momemnt you do cover it will take entire width, interesting !!!
 #hero {
     background-image: url('./assets/loopstudios/desktop/image-hero.jpg');
